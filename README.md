@@ -13,7 +13,7 @@ This repository contains all the code required to reproduce the preprocessing, t
    
 Each of these model folders contains a similar structure of files.  We will describe the key files below:
 
-### (Note: We used the following GitHub repo as our initial reference for our RNN+self-attention models: https://github.com/haryoa/note_music_generator
+### (Note: We used the following GitHub repo as our initial reference for our RNN+self-attention models: https://github.com/haryoa/note_music_generator)
 
 ### preprocess.midi.ipynb
   - This is the preprocessing file we used to transform the Maestro MIDI files into the NoteTokenizer dictionary format that our model used.  It imports dependencies a text file titled **requirements.txt**. It outputs the saved dictionary in the **pickles** folder 
